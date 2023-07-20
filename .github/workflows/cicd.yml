@@ -26,8 +26,7 @@ jobs:
         with:
            name: release-artifacts.apk
            path: |
-            android/app/build/outputs/apk/release/
-            retention-days: 3
+            android/app/build/outputs/apk/release
              
   # build-ios:
   #   runs-on: macos-latest
